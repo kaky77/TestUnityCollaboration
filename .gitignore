@@ -1,0 +1,44 @@
+# Ignorer les dossiers générés par Unity (en dehors de Assets)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Cc]rash[Rr]eports/
+MemoryCaptures/
+
+# Ignorer les fichiers générés par Visual Studio, Rider, et autres IDE
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+.idea/
+.vscode/
+.vs/
+
+# Ignorer les métadonnées Unity
+*.meta
+
+# Ignorer les fichiers de système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de builds et configurations spécifiques à la plateforme
+build/
+Builds/
+ExportedProject/
+.gradle/
+
+# Ignorer les dossiers de cache de Unity
+Cache/
